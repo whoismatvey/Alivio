@@ -573,7 +573,7 @@ body {
 	}
 
 	.howitworks {
-		padding: 60px 0px 60px 0px;
+		padding: 80px 0px 80px 0px;
 		
 		&__subtitle {	
 			font-size: 40px;
@@ -691,12 +691,17 @@ body {
 }
 
 @media(max-width: 910px) {
+	.howitworks__steps .step:nth-child(1) {
+		padding-top: 20px;
+	}
+
 	.howitworks__steps .step:nth-child(2) {
 		padding-top: 10px;
 	}
 
 	.howitworks__steps .step:nth-child(3) {
 		padding-top: 10px;
+		margin-top: 0;
 	}
 }
 
@@ -720,7 +725,7 @@ body {
 	}
 
 	.home {
-		padding: 110px 0;
+		padding: 90px 0 160px;
 		min-height: unset;
 
 		&__desc {
@@ -743,7 +748,7 @@ body {
 	}
 
 	.product {
-		padding: 40px 0 80px 0;
+		padding: 80px 0 120px 0;
 
 		&__card {
 			.card {
@@ -779,7 +784,7 @@ body {
 	}
 
 	.story {
-		padding: 60px 0px;
+		padding: 80px 0px;
 
 		&__title {
 			font-size: 30px;
@@ -804,7 +809,7 @@ body {
 	}
 
 	.footer {
-		padding: 40px 0 60px;
+		padding: 80px 0 80px;
 
 		&__logo {
 			margin-bottom: 40px;
