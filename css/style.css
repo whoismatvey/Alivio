@@ -553,7 +553,7 @@ body {
     display: none; }
 
   .home {
-    padding: 90px 0 160px;
+    padding: 110px 0 190px;
     min-height: unset; }
     .home__desc {
       margin-bottom: 30px; }
@@ -598,7 +598,7 @@ body {
       margin-bottom: 20px; } }
 @media (max-width: 499px) {
   .product {
-    padding-bottom: 80px; }
+    padding-bottom: 116px; }
     .product__card {
       margin-top: -15%; }
 
